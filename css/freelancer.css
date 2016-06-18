@@ -65,6 +65,10 @@ textarea#message {
     border: 2px solid #2C3E50;
 }
 
+.phoneNumber {
+    color: white;
+}
+
 
 /*-- End of Customized CSS Edits --*/
 
