@@ -15,7 +15,7 @@ $(document).ready(function () {
 
             jQuery.ajax({
                 type: "POST",
-                url: "../php/email.php",
+                url: "../mail/email.php",
                 data: data,
                 success: function (data) {
                     document.getElementById("contactForm").reset();
