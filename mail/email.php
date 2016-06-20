@@ -4,6 +4,7 @@ if ($_POST) {
     $name    = $_POST['contactName'];
     $email   = $_POST['contactEmail'];
     $message = $_POST['contactMessage'];
+    $phone   = $_POST['contactPhone'];
 
     /* Don't touch */
     $mail = new PHPMailer();
@@ -18,7 +19,7 @@ if ($_POST) {
     /* This is forwarded through a GoDaddy forwarding account */
     $mail->Body    = $message;
     if (!$mail->send()) {
-        echo "Mailer Error: " . $mail->ErrorInfo;
+        echo "Mail Server Error: " . $mail->ErrorInfo;
     } else {
         echo "Message sent!";
     }
