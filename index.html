@@ -233,6 +233,7 @@
                 <h4>Please fill out the form below or call/text <span class="phoneNumber">650-740-1755</span> to schedule a code-sitter</h4>
             </div>
             <!-- Hidden message to show if contact is successful. -->
+
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div id="submit-success" class="alert alert-success alert-dismissible collapse" role="alert">
@@ -258,8 +259,9 @@
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <!--Formspree HTML Form Submit with no Ajax Call directly below-->
-                    <!--<form name="sentMessage" id="contactForm" action="https://formspree.io/kcooperstein22@gmail.com" method="POST" novalidate>-->
-                    <form name="sentMessage" id="contactForm">
+                    <form name="sentMessage" id="contactForm" action="https://formspree.io/kcooperstein22@gmail.com" method="POST" novalidate>
+                        <!--Form linked to custom.js AJAX call directly below-->
+                        <!--<form name="sentMessage" id="contactForm">-->
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="name">Name</label>
@@ -296,7 +298,7 @@
                                 <input type="submit" name="submit" class="submit-button">
                             </div>
                         </div>
-                        <input type="hidden" name="_next" value="https://www.codesitter.com" />
+                        <!--<input type="hidden" name="_next" value="thanks.html" />-->
                     </form>
                 </div>
             </div>
