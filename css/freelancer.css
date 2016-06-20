@@ -69,9 +69,14 @@ textarea#message {
     color: white;
 }
 
-#success input {
+.submit-button {
     background-color: #2C3E50;
     border-color: #2C3E50;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 1.25em;
+    border-radius: 10px;
 }
 
 
