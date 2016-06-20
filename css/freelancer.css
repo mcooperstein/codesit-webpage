@@ -80,6 +80,28 @@ textarea#message {
 }
 
 
+/*-- Form Submit Alert Message --*/
+
+.alert {
+    border-radius: 4px;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+.close {
+    position: relative;
+    top: -2px;
+    right: 2em;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 0.7em;
+    font-weight: bold;
+    line-height: 2;
+}
+
+
 /*-- End of Customized CSS Edits --*/
 
 body {
