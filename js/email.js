@@ -22,7 +22,7 @@ $(document).ready(function () {
                 data: data,
                 success: function (data) {
                     document.getElementById("contactForm").reset();
-                },
+                }
             });
         }
     });
