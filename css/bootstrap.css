@@ -4215,6 +4215,7 @@ fieldset[disabled] .btn-link:focus {
     font-size: 19px;
     line-height: 1.3333333;
     border-radius: 6px;
+    background-color: black;
 }
 
 .btn-sm,

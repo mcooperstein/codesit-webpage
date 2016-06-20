@@ -69,6 +69,11 @@ textarea#message {
     color: white;
 }
 
+#success input {
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+}
+
 
 /*-- End of Customized CSS Edits --*/
 
