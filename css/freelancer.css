@@ -263,7 +263,7 @@ header {
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 
 header img {
@@ -287,13 +287,20 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;
-        padding-bottom: 100px;
+        /*padding-bottom: 100px;*/
     }
     header .intro-text .name {
         font-size: 4.75em;
     }
     header .intro-text .skills {
         font-size: 1.75em;
+    }
+    .navbar>.container .navbar-brand {
+        margin-left: -25px;
+    }
+    .navbar-right {
+        float: right;
+        margin-right: -25px;
     }
 }
 
@@ -321,7 +328,7 @@ header .intro-text .skills {
 }
 
 section.success {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
