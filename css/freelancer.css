@@ -7,6 +7,12 @@
 
 /*-- Customized CSS Edits Section--*/
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #2C3E50;
+}
+
 .question {
     color: #2C3E50;
     text-decoration: underline;
