@@ -37,9 +37,19 @@ $(function () {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Your message has been sent. We will respond to your message as soon as possible. Thanks! </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
+                    //Tried to move button below alert div
+                    /*$("#btnSubmit").attr("disabled", false);
+                    $('#success').html("<div class='alert alert-success'>");
+                    $('#success > .alert-success').html("<strong>Your message has been sent. We will respond to your message as soon as possible. Thanks!")
+                        .append("</strong>");
+                    $('#success > .alert-success')
+                        .append('</div>');
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");*/
+
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
