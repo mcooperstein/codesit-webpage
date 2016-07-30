@@ -9,7 +9,7 @@ if ($_POST) {
     /* Don't touch */
     $mail = new PHPMailer();
     $mail->isSMTP();
-    $mail->Host        = "relay-hosting.secureserver.net";
+    $mail->Host        = 'relay-hosting.secureserver.net';
     $mail->SMTPAuth    = false;
     $mail->setFrom($email, $name);
     /* end */
@@ -19,9 +19,9 @@ if ($_POST) {
     /* This is forwarded through a GoDaddy forwarding account */
     $mail->Body    = $message;
     if (!$mail->send()) {
-        echo "Mail Server Error: " . $mail->ErrorInfo;
+        echo 'Mail Server Error: ' . $mail->ErrorInfo;
     } else {
-        echo "Message sent!";
+        echo 'Message sent!';
     }
 }
 ?>
