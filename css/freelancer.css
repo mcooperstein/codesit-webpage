@@ -87,21 +87,6 @@ textarea#message {
 }
 
 
-/*.phoneNumber {
-    color: white;
-}/*
-
-.submit-button {
-    background-color: #2C3E50;
-    border-color: #2C3E50;
-    color: white;
-    text-transform: uppercase;
-    padding: 0.5em 1em 0.5em 1em;
-    font-size: 1.25em;
-    border-radius: 10px;
-}
-
-
 /*-- Form Submit Alert Message --*/
 
 .alert {
@@ -111,16 +96,49 @@ textarea#message {
     padding: 1em;
 }
 
-.close {
-    position: relative;
-    top: -2px;
-    right: 2em;
-    color: #fff;
-    text-decoration: none;
-    opacity: 0.8;
-    font-size: 0.7em;
-    font-weight: bold;
-    line-height: 2;
+@media(max-width: 575px) {
+    .close {
+        position: relative;
+        top: 3.25em;
+        right: -2em;
+        color: #fff;
+        text-decoration: none;
+        opacity: 0.8;
+        font-size: 0.7em;
+        font-weight: bold;
+        line-height: 2;
+    }
+    strong {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 709px) {
+    .close {
+        position: relative;
+        top: 2.25em;
+        right: 0em;
+        color: #fff;
+        text-decoration: none;
+        opacity: 0.8;
+        font-size: 0.7em;
+        font-weight: bold;
+        line-height: 2;
+    }
+}
+
+@media(min-width: 710px) {
+    .close {
+        position: relative;
+        top: 1em;
+        right: -1em;
+        color: #fff;
+        text-decoration: none;
+        opacity: 0.8;
+        font-size: 0.7em;
+        font-weight: bold;
+        line-height: 2;
+    }
 }
 
 
@@ -417,9 +435,6 @@ footer {
 
 .btn-social {
     display: inline-block;
-    /*width: 50px;
-    height: 50px;
-    line-height: 45px;*/
     width: 45px;
     height: 45px;
     line-height: 40px;
@@ -523,15 +538,6 @@ footer {
 
 /* -- Responsive Navbar and Footer Section and other Media Queries -- */
 
-
-/*@media(max-width:440px) {
-    .navbar-brand {
-        margin-left: 0;
-        margin-top: 0;
-        font-size: 12px;
-    }
-}*/
-
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -549,7 +555,6 @@ footer {
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;
-        /*padding-bottom: 100px;*/
     }
     header .intro-text .name {
         font-size: 4.75em;
